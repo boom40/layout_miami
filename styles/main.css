@@ -17,8 +17,10 @@ div {
   background-image: url(../images/header.jpg);
   background-size: cover;
   background-position: center;
-  height: 765px;
-  position: relative; }
+  height: 100vh;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
   .header__top {
     position: absolute;
     left: calc(50% - 57.5px);
@@ -29,6 +31,7 @@ div {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
   .header__call {
+    height: 16px;
     text-decoration: none;
     border-bottom: 1px dashed; }
   .header__phone, .header__call {
